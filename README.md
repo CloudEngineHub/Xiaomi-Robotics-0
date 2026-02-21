@@ -4,7 +4,7 @@
 
   **An Open-Sourced Vision-Language-Action Model with Real-Time Inference**
 
-  [![Paper](https://img.shields.io/badge/📄-Paper-red)](https://xiaomi-robotics-0.github.io/assets/paper.pdf)
+  [![Paper](https://img.shields.io/badge/📄-Paper-red)](https://arxiv.org/abs/2602.12684)
   [![Project Page](https://img.shields.io/badge/🌐-Project_Page-blue)](https://xiaomi-robotics-0.github.io/)
   [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow)](https://huggingface.co/collections/XiaomiRobotics/xiaomi-robotics-0)
   [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
@@ -141,12 +141,11 @@ print(f"Generated Action Chunk Shape: {action_chunk.shape}")
 If you find this project useful, please consider citing:
 
 ```bibtex
-@misc{robotics2026xiaomi,
-  title        = {Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution},
-  author       = {Xiaomi Robotics},
-  howpublished={\url{https://xiaomi-robotics-0.github.io}},
-  year         = {2026},
-  note={Project Website}
+@article{cai2026xiaomi,
+  title={Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution},
+  author={Cai, Rui and Guo, Jun and He, Xinze and Jin, Piaopiao and Li, Jie and Lin, Bingxuan and Liu, Futeng and Liu, Wei and Ma, Fei and Ma, Kun and Qiu, Feng and Qu, Heng and Su, Yifei and Sun, Qiao and Wang, Dong and Wang, Donghao and Wang, Yunhong and Wu, Rujie and Xiang, Diyun and Yang, Yu and Ye, Hangjun and Zhang, Yuan and Zhou, Quanyun},
+  journal={arXiv preprint arXiv:2602.12684},
+  year={2026}
 }
 ```
 
